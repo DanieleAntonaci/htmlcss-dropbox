@@ -96,8 +96,23 @@ body{
     background-color: yellow;
     float: left;
 }
+#contact-partner::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
-/* esempi di dropbox */
+
+
+/* potenzialitá di dropbox */
+
+
+/* debug */
+#box-functionality{
+    background-color: cadetblue;
+    width: 100%;
+    min-height: 600px;
+}
 
 
 
