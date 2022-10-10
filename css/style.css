@@ -25,6 +25,7 @@ a{
     padding: 5px 13px;
     color: white;
     background-color: #0061ff;
+    text-align: center;
 }
 
 /* header */
@@ -105,7 +106,31 @@ a{
 
     /* debug */
     min-height: 800px;
-    background-color: cadetblue;
+   
+}
+#plan-business h2{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+#check-box{
+    padding-bottom: 40px;
+}
+.check-box{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    
+    
+    display: inline-block;
+}
+.check-box-select{
+    border: #0061ff 5px solid;
+}
+
+.check-box-element{
+    padding-right: 40px;
 }
 
 #tariff-plan{
@@ -115,10 +140,56 @@ a{
 
 .singol-plan{
     width: calc(100%/3 - 40px);
+    border: 1px solid gray;
     /* debug */
-    background-color:darkgreen;
+    
     height: 600px;
 }
+
+.num-user{
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.user-offer{
+    width: 80%;
+    margin:auto;
+    line-height: 30px;
+
+}
+.user-offer h3{
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.user-offer .price{
+    font-weight: 600;
+}
+.number-people{
+    padding-top: 35px;
+}
+.icon-with-desctription i{
+    padding-right: 8px;
+}
+.icon-with-desctription{
+    display: flex;
+    align-items: baseline;
+   line-height: normal;
+   padding-bottom: 10px;
+}
+.icon-with-desctription.bottom-space{
+    padding-bottom: 40px;
+}
+.user-offer .btn-blue a{
+    color: white;
+}
+.link-decoration{
+    text-decoration: underline;
+    padding: 30px 0;
+}
+
 
 #bottom-plan{
     width: 100%;
@@ -233,6 +304,10 @@ a{
     min-height: 300px;
     /* debug */
 }
+
+
+
+
 
 
 /* footer */
