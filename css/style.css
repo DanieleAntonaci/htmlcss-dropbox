@@ -7,7 +7,8 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    max-width: 1400px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 /* header */
@@ -40,31 +41,32 @@ body{
 
 
 /* body */
-section{
-    margin-bottom: 20px;
+
+/* centralizazione degli elementi e spazio tra essi*/
+.bottom-space{
+    margin-bottom: 50px;
 }
 
-/* centralizazione degli elementi */
 .central-position{
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
+/* piano tariffario */
 #plan-business{
+    margin-top: 70px;
 
-    
     /* debug */
     min-height: 800px;
     background-color: cadetblue;
-    margin-top: 70px;
 }
 
 #tariff-plan{
     display: flex;
-    justify-content: space-between;
-
-    
+    justify-content: space-between;    
 }
+
 .singol-plan{
     width: calc(100%/3 - 40px);
     /* debug */
@@ -81,6 +83,21 @@ section{
     background-color: darkgreen;
 }
 
+
+/* Contatta un partner */
+
+/* dubag */
+#contact-partner{
+    background-color: cadetblue;
+}
+.img-partner{
+    width: 500px;
+    height: 400px;
+    background-color: yellow;
+    float: left;
+}
+
+/* esempi di dropbox */
 
 
 
