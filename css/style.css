@@ -7,14 +7,14 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    max-width: 1800px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
 /* centralizazione degli elementi e spazio tra essi*/
 
 .central-position{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -132,7 +132,6 @@ body{
 #associated-partners{
     background-color: cadetblue;
     width: 100%;
-    margin-bottom: 50px;
 
     display: flex;
     justify-content: space-between;
@@ -149,17 +148,51 @@ body{
 }
 
 .partner{
-    width: calc(100% /3);
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* debug */
     background-color: blue;
+    width: calc(100% /3); 
+    /* l'altezza verra sostituita dalle immagini */
 }
 
+.partner-logo{
+    width: 50%;
+    height: 250px;
+    background-color: bisque;
+}
 
+/* dropbox per la tua azienda */
+#micro-section{
+    width: 100%;
+    min-height: 300px;
+    background-color: cadetblue;
+}
+#micro-section-flex{
+    height: 300px;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+/* domande frequenti */
+#frequent-questions{
+    
+    min-height: 300px;
+    /* debug */
+}
 
 
 /* footer */
 
-
+footer{
+    background-color: black;
+    color: white;
+    min-height: 600px;
+}
 
 
