@@ -15,7 +15,7 @@ body{
     width: 70%;
     margin: 0 auto;
     margin-bottom: 50px;
-    max-width: 1600px;
+    max-width: 1400px;
 }
 
 a{
@@ -240,8 +240,38 @@ a{
 footer{
     background-color: black;
     color: white;
-    min-height: 600px;
-    max-width: 1600px;
+    min-height: 550px;
 }
 
+
+
+#footer-nav{
+    padding: 100px 0;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-nav ul{
+    list-style-type: none; 
+    
+}
+footer li{
+    line-height: 30px;
+}
+footer a{
+    color: white;
+}
+
+#footer-nav li:first-child{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 550;
+}
+
+.language{
+    border-top: 2px solid white;
+    padding-top: 40px;
+    padding-right: 40px;
+}
 
