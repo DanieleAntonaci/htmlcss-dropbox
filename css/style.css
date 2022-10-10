@@ -8,19 +8,78 @@
 body{
     font-family: 'Open Sans', sans-serif;
     max-width: 1400px;
-
-
 }
 
 /* header */
 
+/* nav bar */
+#nav-bar{
+    background-color: blue;
+    width: 100%;
+    height: 80px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
+/* jumbotron */
+#jumbotron{
+    background-color: brown;
+    width: 100%;
+    min-height: 700px;
+    margin-top: 80px;
+}
 
 
 
 /* body */
+section{
+    margin-bottom: 20px;
+}
 
+/* centralizazione degli elementi */
+.central-position{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#plan-business{
+
+    
+    /* debug */
+    min-height: 800px;
+    background-color: cadetblue;
+    margin-top: 70px;
+}
+
+#tariff-plan{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.singol-plan{
+    width: calc(100%/3 - 40px);
+    /* debug */
+    background-color:darkgreen;
+    height: 600px;
+}
+
+#bottom-plan{
+    width: 100%;
+    margin-top: 60px;
+    /* debug */
+    
+    min-height: 200px;
+    background-color: darkgreen;
+}
 
 
 
