@@ -246,28 +246,34 @@ a{
 .bottom-plan-flex .btn{
     margin-top: 30px;
     width: 190px;
-
-    
 }
 
 
 
 /* Contatta un partner */
-
-/* dubag */
 #contact-partner{
-    background-color: cadetblue;
+    display: flex;
+    padding: 100px 0;
 }
-.img-partner{
-    width: 500px;
-    height: 400px;
-    background-color: yellow;
-    float: left;
+#contact-partner div{
+    padding: 50px 40px;
+    width: 40%;
 }
-#contact-partner::after{
-    content: "";
-    display: table;
-    clear: both;
+#contact-partner img{
+    width: 60%;
+}
+#contact-partner h3{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+#contact-partner p{
+    padding-bottom: 35px;
+}
+#contact-partner .btn-blue{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
 }
 
 
