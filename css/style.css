@@ -326,16 +326,12 @@ h3{
 }
 
 /* partner associati */
-#associated-partners{
-
+#slideshow{
     width: 100%;
+    min-height: 500px;
 
     display: flex;
     justify-content: space-between;
-
-
-    /* debug */
-    min-height: 500px;
 }
 
 
@@ -505,4 +501,6 @@ footer a{
 }
 
 /* hover footer */
-
+footer a:hover{
+    text-decoration: underline;
+}
