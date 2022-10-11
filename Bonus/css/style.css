@@ -452,10 +452,30 @@ h3{
 .question i{
     position: absolute;
     right: 50px;
-    top: 50%;
-    transform: translate(0,-50%);
+    top: 34px;
 }
 
+/* hover */
+.fa-angle-down{
+    display: inline;
+}
+.fa-angle-up{
+    display: none;
+}
+.question-hidden{
+    display: none;
+    padding-top: 30px;
+}
+
+.question:hover .fa-angle-down{
+    display: none;
+}
+.question:hover .fa-angle-up{
+    display: inline;
+}
+.question:hover .question-hidden{
+    display: inline-block;
+}
 
 
 
