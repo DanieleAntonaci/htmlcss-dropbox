@@ -58,12 +58,6 @@ a{
     padding: 15px 20px;
 }
 
-
-.color-gray{
-    color: gray;
-}
-
-
 /* jumbotron */
 #jumbotron{
     background-color: #b4d0e7;
@@ -133,6 +127,7 @@ a{
     padding-right: 40px;
 }
 
+/* piano tariffario */
 #tariff-plan{
     display: flex;
     justify-content: space-between;    
@@ -143,9 +138,10 @@ a{
     border: 1px solid gray;
     /* debug */
     
-    height: 600px;
+    min-height: 600px;
 }
 
+/* piano tariffario contenuto */
 .num-user{
     padding: 10px 0;
     text-align: center;
@@ -156,8 +152,8 @@ a{
     width: 80%;
     margin:auto;
     line-height: 30px;
-
 }
+
 .user-offer h3{
     font-weight: 600;
     font-size: 25px;
@@ -167,38 +163,93 @@ a{
 .user-offer .price{
     font-weight: 600;
 }
-.number-people{
-    padding-top: 35px;
+
+/* struttura lista  */
+.list-offer ul{
+    line-height: normal;
+    list-style: none ;
 }
-.icon-with-desctription i{
-    padding-right: 8px;
-}
-.icon-with-desctription{
+
+.user-offer li{
     display: flex;
     align-items: baseline;
-   line-height: normal;
-   padding-bottom: 10px;
+    line-height: normal;
+    padding-bottom: 10px;
 }
-.icon-with-desctription.bottom-space{
+
+.user-offer li i{
+    padding-right: 8px;
+}
+
+.user-offer li:last-child{
     padding-bottom: 40px;
 }
+
+/* bottone */
 .user-offer .btn-blue a{
     color: white;
 }
 .link-decoration{
-    text-decoration: underline;
-    padding: 30px 0;
+    padding-top: 30px;
+    
+}
+.link-decoration a{
+    text-decoration: underline; 
+    color: #0061ff;  
+}
+.separator-line{
+    width: 25%;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+.user-offer h4{
+    padding: 35px 0 25px;
+    font-weight: 600;
+}
+.fa-check{
+    color:#0061ff;
 }
 
 
 #bottom-plan{
     width: 100%;
     margin-top: 60px;
-    /* debug */
-    
     min-height: 200px;
-    background-color: darkgreen;
+    border: 1px solid gray;
 }
+
+.bottom-plan-flex{
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+    margin:auto;
+}
+
+.bottom-team-offer{
+    width: 70%;
+    padding-bottom: 25px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-team-offer h3{
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 25px;
+}
+.bottom-team-offer h4{
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.bottom-plan-flex .btn{
+    margin-top: 30px;
+    width: 190px;
+
+    
+}
+
 
 
 /* Contatta un partner */
