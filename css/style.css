@@ -66,19 +66,39 @@ h3{
     justify-content: space-between;
     align-items: center;
 }
-#nav-bar a{
+.header-nav>a{
     color: black;
+    height: 100%;
 }
+
+/* hover header */
+.header-nav>a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 23px;
+}
+.nav-space-logo:hover{
+    border-bottom: 2px solid black;
+    padding-bottom:16px ;
+}
+.nav-space-btn:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 22px;
+    
+}
+
+
 .header-nav{
     display: flex;
     align-items: center;
-    padding: 0 20px;
 }
 .nav-space-logo{
-    padding-right: 20px;
+    padding:21px 20px 18px 20px;
 }
 .nav-space{
-    padding: 15px 20px;
+    padding: 24px 20px;
+}
+.nav-space-btn{
+    padding: 23px 20px 24px ;
 }
 
 /* jumbotron */
