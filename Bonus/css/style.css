@@ -129,6 +129,18 @@ h3{
 .header-nav #header-funzioni:hover ul{
     visibility: visible;
 }
+.header-nav #header-price:hover ul{
+    visibility: visible;
+}
+.header-nav #header-support:hover ul{
+    visibility: visible;
+}
+.header-nav #header-contact:hover ul{
+    visibility: visible;
+}
+.header-nav #header-sign-in:hover ul{
+    visibility: visible;
+}
 
 
 
