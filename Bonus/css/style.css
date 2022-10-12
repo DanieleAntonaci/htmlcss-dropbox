@@ -390,6 +390,8 @@ h3{
     background-color: #f5f5f5;
     width: calc(100% - 64vw);
     padding: 40px;
+    aspect-ratio: 2/1;
+    overflow-y: auto;
 }
 #partner-description img{
     width: 50%;
