@@ -378,7 +378,7 @@ h3{
 }
 
 /* partner associati */
-/* #slideshow{
+#slideshow{
     width: 100%;
 
     display: flex;
@@ -388,7 +388,7 @@ h3{
 
 #partner-description{
     background-color: #f5f5f5;
-    width: calc(100% /3);
+    width: calc(100% - 64vw);
     padding: 40px;
 }
 #partner-description img{
@@ -396,18 +396,20 @@ h3{
 }
 #partner-description div{
     padding: 20px 0;
-    overflow-y: scroll;
 }
 
 .partner{ 
     display: flex;
     flex-wrap: wrap;
-    width: calc(100% /3); 
+    width: 32vw;
+    height: 100%;
+    min-width: 140px;
 }
 
 .partner-logo{
-    width: 50%;
-    height: 250px;
+    width: 16vw;
+    min-width: 70px;
+    aspect-ratio: 1/1;
     position: relative;
 }
 .partner-logo img{
@@ -417,7 +419,7 @@ h3{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-} */
+}
 
 /* colore sfondi parner */
 .designit{
@@ -577,39 +579,44 @@ footer a:hover{
 
 
 
-
-/* partner associati */
-#slideshow{
-    width: 100%;
-
-    display: flex;
-    justify-content: space-between;
+/* 
+#slideshow::after{
+    clear: both;
+    content: "";
+    display: table;
 }
 
 
 #partner-description{
+    float: left;
     background-color: #f5f5f5;
-    width: calc(100% /3);
+    width: calc(100% - 64vw);
+    aspect-ratio: 1/1;
     padding: 40px;
+    overflow-y: scroll;
 }
 #partner-description img{
     width: 50%;
 }
 #partner-description div{
     padding: 20px 0;
-    overflow-y: scroll;
+    
 }
 
 .partner{ 
+    float: left;
     display: flex;
     flex-wrap: wrap;
-    width: calc(100% /3); 
-    /* l'altezza verra sostituita dalle immagini */
+    aspect-ratio: 1/1;
+    width: 32vw; 
+    height: 100%;
+    min-width: 140px;
 }
 
 .partner-logo{
-    width: 50%;
-    height: 250px;
+    width: 16vw;
+    min-width: 70px;
+    aspect-ratio: 1/1;
     position: relative;
 }
 .partner-logo img{
@@ -620,3 +627,50 @@ footer a:hover{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+ */
+
+
+
+/* 
+#slideshow{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#partner-description{
+    background-color: #f5f5f5;
+    width: calc(100% - 64vw);
+    padding: 40px;
+}
+#partner-description img{
+    width: 50%;
+}
+#partner-description div{
+    padding: 20px 0;
+}
+
+.partner{ 
+    display: flex;
+    flex-wrap: wrap;
+    width: 32vw;
+    height: 100%;
+    min-width: 140px;
+}
+
+.partner-logo{
+    width: 16vw;
+    min-width: 70px;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+.partner-logo img{
+    width: 50%;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
