@@ -1,0 +1,242 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+/* centralizazione degli elementi e spazio tra essi*/
+.central-position{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 1400px;
+}
+
+a{
+    text-decoration: none;
+}
+.btn{
+    padding: 5px 13px;
+    text-align: center;
+}
+.btn-blue{
+    color: white;
+    background-color: #0061ff;
+}
+.btn-blue:hover{
+    background-color: rgb(54, 133, 245);
+}
+.btn-white{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.btn-white:hover{
+    background-color: whitesmoke
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+h3{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}   
+.separator-line{
+    width: 25%;
+    border-bottom: 2px solid rgb(205, 205, 205);
+    padding: 15px 0;
+}
+
+
+#nav-bar{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+
+    box-shadow: 0 1px 5px gray;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav ul a{
+    color: black;
+    height: 100%;
+}
+.header-nav li{
+    list-style-type:none;
+}
+/* hover header */
+.header-nav ul li a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 23px;
+}
+
+
+
+.header-nav, .header-nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav-space-logo{
+    padding:21px 20px 18px 20px;
+}
+.nav-space{
+    padding: 24px 20px;
+}
+.nav-space-btn{
+    padding: 23px 20px 24px ;
+}
+
+/* menu a tendina */
+
+.header-nav li{
+    position: relative;
+}
+
+.header-nav ul ul{
+    position: absolute;
+    top: 46px;
+    display: inline-block;
+    background-color: white;
+    visibility: hidden;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 20px 60px;
+    line-height: 30px;
+}
+
+.header-nav #header-perche-dropbox:hover ul{
+    visibility: visible;
+}
+.header-nav #header-funzioni:hover ul{
+    visibility: visible;
+}
+.header-nav #header-price:hover ul{
+    visibility: visible;
+}
+.header-nav #header-support:hover ul{
+    visibility: visible;
+}
+.header-nav #header-contact:hover ul{
+    visibility: visible;
+}
+.header-nav #header-sign-in:hover ul{
+    visibility: visible;
+}
+/* main */
+.login{
+    width: 60%;
+    margin: 200px auto;
+    height: 500px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #0061ff;
+    box-shadow: 2px 2px 5px 1px gray,-2px -2px 5px 1px gray;
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+}
+.username-login{
+    width: 70%;
+    margin: auto;
+}
+
+.username-login h3{
+    color: white;
+}
+input {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+.btn-for-access{
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+.btn-sign{
+    color: white;
+    text-decoration: underline;
+}
+.btn-sign:hover{
+    text-decoration:none;
+}
+
+.login-btn{
+    padding: 20px 40px;
+    font-size: 30px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 20px;
+    box-shadow: -2px -2px 3px 1px gray inset;
+}
+.login-btn{
+    color: #0061ff;
+}
+.login-btn:active{
+    box-shadow: 2px 2px 3px 1px gray inset;
+}
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+    min-height: 550px;
+}
+
+
+
+#footer-nav{
+    padding: 100px 0;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-nav ul{
+    list-style-type: none; 
+    
+}
+footer li{
+    line-height: 30px;
+}
+footer a{
+    color: white;
+}
+
+#footer-nav li:first-child{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 550;
+}
+
+.language{
+    border-top: 2px solid white;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+/* hover footer */
+footer a:hover{
+    text-decoration: underline;
+}
+

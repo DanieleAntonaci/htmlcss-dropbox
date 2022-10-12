@@ -120,9 +120,7 @@ h3{
     padding: 20px 60px;
     line-height: 30px;
 }
-.header-nav ul ul li:hover{
-    
-}
+
 .header-nav #header-perche-dropbox:hover ul{
     visibility: visible;
 }
