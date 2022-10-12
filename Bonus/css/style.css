@@ -84,15 +84,7 @@ h3{
     border-bottom: 2px solid black;
     padding-bottom: 23px;
 }
-.nav-space-logo:hover{
-    border-bottom: 2px solid black;
-    padding-bottom:16px ;
-}
-.nav-space-btn:hover{
-    border-bottom: 2px solid black;
-    padding-bottom: 22px;
-    
-}
+
 
 
 .header-nav{
@@ -329,9 +321,8 @@ h3{
 }
 
 /* partner associati */
-#slideshow{
+/* #slideshow{
     width: 100%;
-    min-height: 500px;
 
     display: flex;
     justify-content: space-between;
@@ -355,7 +346,6 @@ h3{
     display: flex;
     flex-wrap: wrap;
     width: calc(100% /3); 
-    /* l'altezza verra sostituita dalle immagini */
 }
 
 .partner-logo{
@@ -370,7 +360,7 @@ h3{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
+} */
 
 /* colore sfondi parner */
 .designit{
@@ -526,4 +516,50 @@ footer a{
 /* hover footer */
 footer a:hover{
     text-decoration: underline;
+}
+
+
+
+
+/* partner associati */
+#slideshow{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#partner-description{
+    background-color: #f5f5f5;
+    width: calc(100% /3);
+    padding: 40px;
+}
+#partner-description img{
+    width: 50%;
+}
+#partner-description div{
+    padding: 20px 0;
+    overflow-y: scroll;
+}
+
+.partner{ 
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% /3); 
+    /* l'altezza verra sostituita dalle immagini */
+}
+
+.partner-logo{
+    width: 50%;
+    height: 250px;
+    position: relative;
+}
+.partner-logo img{
+    width: 50%;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
