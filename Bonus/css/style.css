@@ -74,20 +74,22 @@ h3{
     justify-content: space-between;
     align-items: center;
 }
-.header-nav>a{
+.header-nav ul a{
     color: black;
     height: 100%;
 }
-
+.header-nav li{
+    list-style-type:none;
+}
 /* hover header */
-.header-nav>a:hover{
+.header-nav ul li a:hover{
     border-bottom: 2px solid black;
     padding-bottom: 23px;
 }
 
 
 
-.header-nav{
+.header-nav, .header-nav ul{
     display: flex;
     align-items: center;
 }
@@ -100,6 +102,49 @@ h3{
 .nav-space-btn{
     padding: 23px 20px 24px ;
 }
+
+/* menu a tendina */
+
+.header-nav li{
+    position: relative;
+}
+
+.header-nav ul ul{
+    position: absolute;
+    top: 46px;
+    display: inline-block;
+    background-color: white;
+    visibility: hidden;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 20px 60px;
+    line-height: 30px;
+}
+.header-nav ul ul li:hover{
+    
+}
+.header-nav #header-perche-dropbox:hover ul{
+    visibility: visible;
+}
+.header-nav #header-funzioni:hover ul{
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* jumbotron */
 #jumbotron{
